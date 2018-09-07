@@ -1,0 +1,21 @@
+For final exam, second half of blue book is for notes
+
+Meaningful reports - like most popular vehicle, highest profit margin products
+
+insert into and insert select have different syntax but same functionality
+
+procedures in SQL are like functions where you define procedure name, its parameters, than what it does.
+
+SQL is not case sensitive by default. Even variable names are non-case sensitive
+
+delete and truncate (truncate more efficient) are about the same but are dangerous to use
+
+SELECT * FROM Customers, use of star can be cumbersome on large DBs since you are querying all the rows.
+
+SQL is indexed at 1, not 0.
+
+% is the wildcard symbol. ... WHERE ProductDescription like 'Scary%' <-- SEARCHES EVERY ROW, bad for performance when using like
+
+Aggregates on final
+
+left join puts nulls for non-matching tables
